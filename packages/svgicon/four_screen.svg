@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.3-报警预定" transform="translate(-986.000000, -130.000000)" fill="#DCE1E5">
+            <g id="视频悬着" transform="translate(111.000000, 116.000000)">
+                <path d="M876,24 L876,15 C876,14.4477153 876.447715,14 877,14 L889,14 C889.552285,14 890,14.4477153 890,15 L890,24 L891,24 L891,26 L890,26 L876,26 L875,26 L875,24 L876,24 Z M878,16 L878,24 L888,24 L888,16 L878,16 Z M881,21 L883,21 C882.989333,19.2506667 882.989333,18.2506667 883,18 L881,21 Z M885,21 L885,22 L884,22 L884,23 L883,23 L883,22 L880,22 L880,21 L882.5,17.048 L884,17.048 L884,21 L885,21 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

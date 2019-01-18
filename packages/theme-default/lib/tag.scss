@@ -1,0 +1,70 @@
+.yg__tag,
+.yg__tag--default {
+  color: #3f536e;
+  background-color: #f7f7f7
+}
+
+.yg__tag {
+  display: inline-block;
+  padding: 1px 8px;
+  font-size: 0;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  outline: 0
+}
+
+.yg__tag--close,
+.yg__tag--desc {
+  font-size: 13px!important;
+}
+
+.yg__tag--desc {
+  margin-right: 2px
+}
+
+.yg__tag--default {
+  border-color: #dfdfdf
+}
+
+.yg__tag--success {
+  @include diabled-color(18, 206, 102, .1, .2);
+  color: $color-success;
+}
+
+.yg__tag--success .yg-tag__close:hover {
+  background-color: $color-success;
+  color: #fff
+}
+
+.yg__tag--primary {
+  @include diabled-color(63, 170, 245, .1, .2);
+  color: #3FAAF5
+}
+
+.yg__tag--primary .yg-tag__close:hover {
+  background-color: #3FAAF5;
+  color: #fff
+}
+
+.yg__tag--warning {
+  @include diabled-color(247, 186, 41, .1, .2);
+  color: $color-warning;
+}
+
+.yg__tag--warning.yg-tag__close:hover {
+  background-color: $color-warning;
+  color: #fff
+}
+
+.yg__tag--danger {
+  @include diabled-color(255, 73, 73, .1, .2);
+  color: $color-danger;
+}
+
+.yg__tag--danger .yg-tag__close:hover {
+  background-color: $color-danger;
+  color: #fff
+}

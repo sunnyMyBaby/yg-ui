@@ -1,0 +1,287 @@
+
+.yg__button{
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #bfcbd9;
+  color: #1f2d3d;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 14px;
+}
+.yg__button.is-round{
+  border-radius: 20px;
+}
+.yg__button--size-medium{
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.yg__button--size-small{
+  padding: 9px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.yg__button--default{
+  background: #fff;
+  border: 1px solid #bfcbd9;
+  color: #1f2d3d;
+}
+.yg__button--default:focus,
+.yg__button--default:hover{
+  background: rgba(63, 170, 245, .05);
+  border-color:rgba(63, 170, 245, .08);
+  color: #3FAAF5;
+}
+.yg__button--default:disabled{
+  opacity: .3;
+  background: #fff;
+  border: 1px solid #bfcbd9;
+  color: #1f2d3d;
+  cursor:not-allowed;
+}
+.yg__button--default:active{
+  background: #fff;
+  outline: 0
+}
+.yg__button--default.is-plain{
+  border: 1px solid #3FAAF5
+}
+.yg__button--default.is-plain:focus,
+.yg__button--default.is-plain:hover{
+  background: #fff;
+  border-color: rgba(63, 170, 245, .8);
+  color: #3FAAF5;
+}
+.yg__button--default.is-plain:disabled{
+  background: #fff;
+  border: 1px solid #3FAAF5;
+  color: #1f2d3d;
+  cursor:not-allowed;
+}
+.yg__button--primary{
+  background: #3FAAF5;
+  border: 1px solid #3FAAF5;
+  color: #fff;
+}
+.yg__button--primary:focus,
+.yg__button--primary:hover{
+  opacity: .7;
+}
+.yg__button--primary:disabled{
+  opacity: .3;
+  cursor:not-allowed;
+}
+.yg__button--primary.is-plain{
+  background: rgba(63, 170, 245, .05);
+  border-color: #3faaf5cc;
+  color: #3FAAF5
+}
+.yg__button--primary.is-plain:focus,
+.yg__button--primary.is-plain:hover{
+  opacity: 1;
+  background: #3FAAF5;
+  border: 1px solid #3FAAF5;
+  color: #fff
+}
+.yg__button--primary.is-plain:disabled{
+  opacity: .3;
+  background: rgba(63, 170, 245, .05);
+  border-color: rgba(63, 170, 245, .8);
+  color: #3FAAF5;
+  cursor:not-allowed;
+}
+
+
+.yg__button--success {
+  background: #13ce66;
+  border: 1px solid #13ce66;
+  color: #fff;
+}
+
+.yg__button--success:focus,
+.yg__button--success:hover {
+  opacity: .7;
+}
+
+.yg__button--success:disabled {
+  opacity: .3;
+  cursor:not-allowed;
+}
+
+.yg__button--success.is-plain {
+  background: rgba(19, 206, 102, .05);
+  border-color: rgba(19, 206, 102, .8);
+  color: #13ce66
+}
+
+.yg__button--success.is-plain:focus,
+.yg__button--success.is-plain:hover {
+  opacity: 1;
+  background: #13ce66;
+  border: 1px solid #13ce66;
+  color: #fff
+}
+
+.yg__button--success.is-plain:disabled {
+  opacity: .3;
+  background: rgba(63, 170, 245, .05);
+  border-color: rgba(63, 170, 245, .8);
+  color: #3FAAF5;
+  cursor:not-allowed;
+}
+
+.yg__button--info {
+  background: #909399;
+  border: 1px solid #909399;
+  color: #fff
+}
+
+.yg__button--info:focus,
+.yg__button--info:hover {
+  opacity: .7
+}
+
+.yg__button--info:disabled {
+  opacity: .3;
+  cursor:not-allowed;
+}
+
+.yg__button--info.is-plain {
+  background: #f4f4f5;
+  border-color: #d3d4d6;
+  color: #909399
+}
+
+.yg__button--info.is-plain:focus,
+.yg__button--info.is-plain:hover {
+  opacity: 1;
+  background: #909399;
+  border: 1px solid #909399;
+  color: #fff
+}
+
+.yg__button--info.is-plain:disabled {
+  opacity: .3;
+  background: rgba(80, 191, 255, .05);
+  border-color: rgba(80, 191, 255, .8);
+  color: #50bfff;
+  cursor:not-allowed;
+}
+
+
+.yg__button--warning {
+  background: #f7ba2a;
+  border: 1px solid #f7ba2a;
+  color: #fff
+}
+
+.yg__button--warning:focus,
+.yg__button--warning:hover {
+  opacity: .7
+}
+
+.yg__button--warning:disabled {
+  opacity: .3;
+  cursor:not-allowed;
+}
+
+.yg__button--warning.is-plain {
+  background: rgba(247, 186, 42, .05);
+  border-color: rgba(247, 186, 42, .8);
+  color: #f7ba2a
+}
+
+.yg__button--warning.is-plain:focus,
+.yg__button--warning.is-plain:hover {
+  opacity: 1;
+  background: #f7ba2a;
+  border: 1px solid #f7ba2a;
+  color: #fff
+}
+
+.yg__button--warning.is-plain:disabled {
+  opacity: .3;
+  background: rgba(247, 186, 42, .05);
+  border-color: rgba(247, 186, 42, .8);
+  color: #f7ba2a;
+  cursor:not-allowed;
+}
+
+
+
+.yg__button--danger {
+  background: #ff4949;
+  border: 1px solid #ff4949;
+  color: #fff
+}
+
+.yg__button--danger:focus,
+.yg__button--danger:hover {
+  opacity: .7
+}
+
+.yg__button--danger:disabled {
+  opacity: .3;
+  cursor:not-allowed;
+}
+
+.yg__button--danger.is-plain {
+  background: rgba(255, 73, 73, .05);
+  border-color: rgba(255, 73, 73, .8);
+  color: #ff4949
+}
+
+.yg__button--danger.is-plain:focus,
+.yg__button--danger.is-plain:hover {
+  opacity: 1;
+  background: #ff4949;
+  border: 1px solid #ff4949;
+  color: #fff
+}
+
+.yg__button--danger.is-plain:disabled {
+  opacity: .3;
+  background: rgba(255, 73, 73, .05);
+  border-color: rgba(255, 73, 73, .8);
+  color: #ff4949
+}
+
+
+.yg__button--text {
+  color: #409EFF;
+  background: 0 0;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.yg__button--text:focus,
+.yg__button--text:hover {
+  color: #66b1ff;
+  border-color: transparent;
+  background-color: transparent
+}
+
+.yg__button--text:active {
+  color: #3a8ee6;
+  background-color: transparent
+}
+
+.yg__button--text,
+.yg__button--text.is-disabled,
+.yg__button--text.is-disabled:focus,
+.yg__button--text.is-disabled:hover,
+.yg__button--text:active {
+  border-color: transparent
+}
+
+.yg__button.is-disabled.yg__button--text {
+  background-color: transparent
+}

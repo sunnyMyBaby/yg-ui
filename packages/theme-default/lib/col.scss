@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@for $i from 0 through 24 {
+  .yg-col-#{$i} {
+    width: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-offset-#{$i} {
+    margin-left: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-pull-#{$i} {
+    position: relative;
+    right: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-push-#{$i} {
+    position: relative;
+    left: (1 / 24 * $i * 100) * 1%;
+  }
+}
+
+
+[class*="yg-col-"] {
+  float: left;
+  box-sizing: border-box
+}
+
+.yg-col-xs-0 {
+  display: none;
+}
+
+@for $i from 0 through 24 {
+  .yg-col-xs-#{$i} {
+    width: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-xs-offset-#{$i} {
+    margin-left: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-xs-pull-#{$i} {
+    position: relative;
+    right: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-xs-push-#{$i} {
+    position: relative;
+    left: (1 / 24 * $i * 100) * 1%;
+  }
+}
+
+.yg-col-sm-0 {
+  display: none;
+}
+
+@for $i from 0 through 24 {
+  .yg-col-sm-#{$i} {
+    width: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-sm-offset-#{$i} {
+    margin-left: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-sm-pull-#{$i} {
+    position: relative;
+    right: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-sm-push-#{$i} {
+    position: relative;
+    left: (1 / 24 * $i * 100) * 1%;
+  }
+}
+
+
+.yg-col-md-0 {
+  display: none;
+}
+
+@for $i from 0 through 24 {
+  .yg-col-md-#{$i} {
+    width: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-md-offset-#{$i} {
+    margin-left: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-md-pull-#{$i} {
+    position: relative;
+    right: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-md-push-#{$i} {
+    position: relative;
+    left: (1 / 24 * $i * 100) * 1%;
+  }
+}
+
+.yg-col-lg-0 {
+  display: none;
+}
+
+@for $i from 0 through 24 {
+  .yg-col-lg-#{$i} {
+    width: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-lg-offset-#{$i} {
+    margin-left: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-lg-pull-#{$i} {
+    position: relative;
+    right: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-lg-push-#{$i} {
+    position: relative;
+    left: (1 / 24 * $i * 100) * 1%;
+  }
+}
+
+.yg-col-xl-0 {
+  display: none;
+}
+
+@for $i from 0 through 24 {
+  .yg-col-xl-#{$i} {
+    width: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-xl-offset-#{$i} {
+    margin-left: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-xl-pull-#{$i} {
+    position: relative;
+    right: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .yg-col-xl-push-#{$i} {
+    position: relative;
+    left: (1 / 24 * $i * 100) * 1%;
+  }
+}
