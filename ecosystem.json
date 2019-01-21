@@ -1,0 +1,28 @@
+{
+  "apps":[
+    {
+      "name": "vueTest",
+      "script": "app.js",
+      "env": {
+        "COMMON_VARIABLE": "true"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy":{
+    "production": {
+      "user": "yg",
+      "host": ["39.96.4.34"],
+      "port": "22",
+      "ref": "origin/master",
+      "repo": "https://github.com/sunnyMyBaby/vue-test.git",
+      "path": "/home/yg/www/ygui",
+      "post-deploy":"pm2 startOrRestart ecosystem.json --env production",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
